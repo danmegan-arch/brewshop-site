@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BrewShop Coffee</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>BrewShop Coffee</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Freshly Brewed. Locally Loved.</h2>
+    <p>Welcome to BrewShop — where great coffee, warm smiles, and community meet.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>BrewShop Coffee was founded in Dublin with one goal — to serve high-quality, ethically sourced coffee 
+       in a space that feels like home. We roast small batches, support fair trade, and bake fresh pastries every morning.</p>
+  </section>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+
+    <h3>Coffee (Top 5 in Dublin ⭐)</h3>
+    <ul>
+      <li>⭐ <strong>Flat White</strong> — Smooth microfoam, rich espresso taste (€3.60)</li>
+      <li>⭐ <strong>Latte</strong> — Creamy and mellow, a Dublin favourite (€3.60)</li>
+      <li>⭐ <strong>Cappuccino</strong> — Perfect balance of foam and espresso (€3.50)</li>
+      <li>⭐ <strong>Americano</strong> — Bold, long black brew (€3.00)</li>
+      <li>⭐ <strong>Espresso</strong> — Short, intense shot of flavour (€2.80)</li>
+    </ul>
+
+    <h3>Specialty & Iced</h3>
+    <ul>
+      <li><strong>Mocha</strong> — Chocolate + espresso indulgence (€3.90)</li>
+      <li><strong>Cortado</strong> — Silky blend of espresso and milk (€3.20)</li>
+      <li><strong>Cold Brew</strong> — Smooth, refreshing slow-steeped coffee (€4.20)</li>
+      <li><strong>Affogato</strong> — Espresso over vanilla gelato (€4.50)</li>
+    </ul>
+
+    <h3>Non-Coffee</h3>
+    <ul>
+      <li><strong>Matcha Latte</strong> — Stone-ground green tea (€3.80)</li>
+      <li><strong>Hot Chocolate</strong> — Rich, creamy and comforting (€3.50)</li>
+      <li><strong>Chai Latte</strong> — Spiced, aromatic and cozy (€3.70)</li>
+    </ul>
+
+    <h3>Bakery</h3>
+    <ul>
+      <li><strong>Almond Croissant</strong> — Buttery layers, sweet frangipane (€3.10)</li>
+      <li><strong>Banana Bread</strong> — Brown butter & walnut (€2.80)</li>
+      <li><strong>Cinnamon Roll</strong> — Soft swirl with icing drizzle (€3.20)</li>
+    </ul>
+
+    <p style="margin-top:10px;color:#666;">Oat, almond, and soy milk at no extra cost. Ask about allergens.</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="https://i.postimg.cc/jW32dL6k/Cafe-image-1.png" alt="BrewShop interior">
+      <img src="https://i.postimg.cc/7CHJZFFr/Brew-2.png" alt="Iced latte takeaway cup">
+      <img src="https://i.postimg.cc/SXSYxBBJ/Brew-4.png" alt="Coffee counter detail">
+      <img src="https://i.postimg.cc/TKpgjMkq/Brew-5.png" alt="Latte art close-up">
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>Ask BrewBot</h2>
+    <div class="chat-box">
+      <div id="chatLog"></div>
+      <input type="text" id="chatInput" placeholder="Ask about opening hours, vegan milk, Wi-Fi...">
+      <button onclick="sendMessage()">Ask</button>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Visit Us</h2>
+    <p>📍 12 Market Street, Dublin</p>
+    <p>📧 hello@brewshop.ie</p>
+    <p>📞 +353 00 000 0000</p>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> BrewShop Coffee | Follow us on Instagram @brewshopdublin</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
